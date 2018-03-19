@@ -2,13 +2,16 @@
 <html lang="nl" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>@dipsaus9 Image picker</title>
   </head>
   <body>
     <section>
       <form>
         <div class="image">
-          <!-- Hier komt een extra element als js support is -->
+          <div class="test">
+            <img src="https://placebear.com/g/200/300" alt="bear"/>
+          </div>
         </div>
         <div class="image-picker">
           <fieldset>
@@ -25,21 +28,25 @@
               Kies een ouder bestand
             </legend>
             <div class="image-picker_select">
-              <label for="1">
-                <input id="1" type="radio" name="image_select" value="1"/>
-                <img src="https://placebear.com/g/200/300" alt="bear"/>
+              <label for="first">
+                <input id="first" type="radio" name="image_select" value="first"/>
+                <img class="first" src="https://placebear.com/g/200/300" alt="bear"/>
+                <p>Titel</p>
               </label>
-              <label for="2">
-                <input id="2" type="radio" name="image_select" value="2"/>
-                <img src="https://placebear.com/g/200/300" alt="bear"/>
+              <label for="second">
+                <input id="second" type="radio" name="image_select" value="second"/>
+                <img class="second" src="https://placebear.com/g/200/300" alt="bear"/>
+                <p>Titel</p>
               </label>
-              <label for="3">
-                <input id="3" type="radio" name="image_select" value="3"/>
-                <img src="https://placebear.com/g/200/300" alt="bear"/>
+              <label for="third">
+                <input id="third" type="radio" name="image_select" value="third"/>
+                <img class="third" src="https://placebear.com/g/200/300" alt="bear"/>
+                <p>Titel</p>
               </label>
-              <label for="4">
-                <input id="4" type="radio" name="image_select" value="4"/>
-                <img src="https://placebear.com/g/200/300" alt=""/>
+              <label for="fourth">
+                <input id="fourth" type="radio" name="image_select" value="fourth"/>
+                <img class="fourth" src="https://placebear.com/g/200/300" alt=""/>
+                <p>Titel</p>
               </label>
             </div>
           </fieldset>
