@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>@dipsaus9 Image picker</title>
+  </head>
+  <body>
+    <section>
+      <form>
+        <div class="image">
+          <!-- Hier komt een extra element als js support is -->
+        </div>
+        <div class="image-picker">
+          <fieldset>
+            <legend>
+              Upload een file
+            </legend>
+            <div class="image-picker_upload">
+              <input type="file" id="upload"/>
+              <label for="upload">Upload je profielfoto (Max: 1MB)</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Kies een ouder bestand
+            </legend>
+            <div class="image-picker_select">
+              <label for="1">
+                <input id="1" type="radio" name="image_select" value="1"/>
+                <img src="https://placebear.com/g/200/300" alt="bear"/>
+              </label>
+              <label for="2">
+                <input id="2" type="radio" name="image_select" value="2"/>
+                <img src="https://placebear.com/g/200/300" alt="bear"/>
+              </label>
+              <label for="3">
+                <input id="3" type="radio" name="image_select" value="3"/>
+                <img src="https://placebear.com/g/200/300" alt="bear"/>
+              </label>
+              <label for="4">
+                <input id="4" type="radio" name="image_select" value="4"/>
+                <img src="https://placebear.com/g/200/300" alt=""/>
+              </label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="submit_form">
+          <input type="submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
