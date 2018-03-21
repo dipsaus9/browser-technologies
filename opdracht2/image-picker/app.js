@@ -38,6 +38,7 @@ function get(url) {
     req.open('GET', url);
     req.onload = function() {
       if (req.status == 200) {
+        console.log(req.response);
         resolve(req.response);
       }
       else {
