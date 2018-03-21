@@ -1,6 +1,33 @@
 body{ margin: 0; }
 *{ box-sizing: border-box; }
-section form{ max-width: 700px; width: 1080px; width: 100%; width: 100vw; margin: 0 auto; padding-top: 50px; }
+html{ scroll-behavior: smooth;}
+section form{ margin: 0 auto; padding: 20px 0; width: 100%; }
 form .image{ display: block;  width: 200px; height: 200px; position: relative; margin: 0 auto; border-radius: 50%; overflow: hidden; }
 form .image .test{ width: 200%; height: 200%; left: -50%; top: -50%; position: relative; }
 form .image img{ display: block; left: 0; top: 0; min-width: 50%; min-height: 50%; position: absolute; margin: auto; right: 0; bottom: 0; }
+h1{ text-align: center; margin: 0; font-size: 32px; font-size: 2rem; font-weight: bold; font-family: roboto; letter-spacing: .5px; line-height: 1; }
+section{ max-width: 700px; width: 1080px; width: 100%; width: 100vw; margin: 0 auto; background: #FFFFFF; background: white; padding: 40px 20px; border-radius: 10px; border: 1px solid #000000; border: 1px solid rgba(0,0,0,.3); }
+main{ background: #f7f7f7; padding-top: 60px; padding-bottom: 100px;}
+.image-picker{ margin-top: 30px; }
+fieldset{ border: none; padding: 0; margin: 0; }
+legend{ font-size: 20px; font-size: 1.25rem; line-height: 1; letter-spacing: .2px; color: #545454; font-family: roboto; margin: 20px 0 0; display: block; width: 100%; position: relative; }
+legend:after{ content: ''; display: block; width: 100%; height: 1px; background: black; background: rgba(0,0,0, .3); position: absolute; top: 100%; left: 0; border-radius: 20px; }
+.image-picker_upload{ display: block; display: flex; justify-content: space-between; flex-direction: row-reverse; margin: 20px 0; }
+.image-picker_select{ display: block; display: flex; flex-wrap: wrap; }
+
+.image-picker_select input[type="radio"]:not(:checked), .image-picker_select input[type="radio"]:checked{ -webkit-appearance: none; -moz-appearance: none; appearance: none; margin: 0; position: absolute; }
+label .test img{ display: block; left: 0; top: 0; min-width: 50%; min-height: 50%; position: absolute; margin: auto; right: 0; bottom: 0; }
+.image-picker_select label{ width: 33.333%; width: calc(100% / 3); float: left; height: 300px; position: relative; overflow: hidden; padding: 10px; }
+label .test{ width: 200%; height: 200%; left: -50%; top: -50%; position: relative; }
+label p{ position: absolute; bottom: 0; height: 30px; display: block; flex; line-height: 30px; align-items: center; justify-content: center; text-align: center; width: 100%; margin: 0; background: white; border-bottom: 1px solid black; border-bottom: 1px solid rgba(0,0,0, .3); font-family: roboto; color: #575757; }
+.image-picker_select input:checked + .containing:after{ content: ''; display: block; background: white; position: absolute; left: 0; top: 0; width: 100%; height: 100%; filter: alpha(opacity=30); opacity: .3; }
+.image-picker_select input:checked + .containing{ border: 1px solid black; }
+.image-picker_select input:checked + .containing p{ border-bottom: 1px solid blue; border-bottom: 1px solid rgba(blue, .3); background: blue; color: white; }
+.containing{ display: block; width: 100%; height: 100%; position: relative; overflow: hidden; }
+.submit_form input{ float: right; border: none; background: #f3997b; box-shadow: none; height: 40px; padding: 0 15px; color: white; font-size: 16px; font-size: 1rem; line-height: 1; cursor: pointer; transition: .3s ease-in-out; border: 1px solid #f3997b; }
+.submit_form input:hover{ background: white; color: #f3997b; border: 1px solid black; border: 1px solid rgba(black, .3); }
+.target{ position: absolute; left: 0; bottom: 0; background: white; width: 100%; display: block; text-align: center; line-height: 50px; color: #575757; text-decoration: none; }
+.target:hover{ text-decoration: underline; }
+#image{ display: block; }
+#image:not(:target){ display: none; }
+#image:target{ display: block; }
