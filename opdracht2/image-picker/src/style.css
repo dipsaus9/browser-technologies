@@ -1,6 +1,5 @@
 body{ margin: 0; }
 *{ box-sizing: border-box; }
-section{ background-color: #3B5998; }
 section form{ max-width: 700px; width: 1080px; width: 100%; width: 100vw; margin: 0 auto; padding-top: 50px; }
 form .image{ display: block;  width: 200px; height: 200px; position: relative; margin: 0 auto; border-radius: 50%; overflow: hidden; }
 form .image .test{ width: 200%; height: 200%; left: -50%; top: -50%; position: relative; }
