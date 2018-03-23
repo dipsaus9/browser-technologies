@@ -27,11 +27,9 @@ By using this method I'm creating support for browser who can use this feature.
 
 After I completed this I created some extra JS to make it even better. By checking all support on the top of my JS file I made sure the app wouldn't crash. After I knew what methods I could use I created some function to give the app some exra functionality.
 
-![Latsest version](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht2/images/image_picker_end.png)
-
 
 ## FAQ
-([Image Picker](https://dipsaus9.github.io/browser-technologies/opdracht2/faq/).
+([FAQ](https://dipsaus9.github.io/browser-technologies/opdracht2/faq/)).
 
 ![First version](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht2/images/faq_without_css.png)
 
