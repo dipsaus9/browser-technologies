@@ -1,0 +1,15 @@
+body{ margin: 0; }
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth;}
+nav{ position: absolute; position: fixed; top: 0; left: 0; width: 500px; width: 35%; width: 35vw; height: 1080px; height: 100%; height: 100vh; background: #efefef; }
+section{ position: absolute; right: 0; top: 0; width: 500px; width: 65%; width: 65vw; }
+article{ width: 100%; position: relative; height: 1080px; height: 100%; height: 100vh; display: block; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+p, h1{ width: 100%; max-width: 450px; text-align: left; }
+ul{ margin: 0; padding: 0; text-align: center; top: 100px; display: block; position: relative; }
+li{ padding: 10px 0; color: #545454; list-style-type: square; text-decoration: none; }
+a{ text-decoration: none; color: #545454; font-size: 20px; font-size: 1.25rem; position: relative; }
+a:hover{ text-decoration: underline; }
+@supports (display: flex){
+  nav{ display: flex; align-items: center; justify-content: center; }
+  ul{ top: 0; }
+}
