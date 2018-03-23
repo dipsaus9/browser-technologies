@@ -4,13 +4,13 @@ For this project I created two folders with each a different feature. The featur
 - FAQ page
 - Image Picker
 
-I started this project with the image picker ([Image Picker](https://dipsaus9.github.io/browser-technologies/opdracht2/image-picker/).
+I started this project with the image picker ([Image Picker](https://dipsaus9.github.io/browser-technologies/opdracht2/image-picker/)).
 
 ## Image Picker
 My first thought was: Oh, that will be easy, I'll just use the input field with `type="file"`. But if everything was that easy....
 So I looked in the [whatwg.org](https://html.spec.whatwg.org/multipage/) website to check the support and how to use this element. As I found out quickly this input element isn't supported on all browsers.
 
-![Support of the type="file"](https://raw.githubusercontent.com/dipsaus9/broswer-technologies/master/opdracht2/images/file_upload.png)
+![Support of the type="file"](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht2/images/faq_withcss.png)
 
 So when I saw this I was thinking how to solve this problem. I decided I'm not going to create an extra support function for this. As you can see on the image the support goes back really far. If the browser didn't support the file type this input will always fall back to a text field.
 Because I saw this problem I wanted to create a small solution. I created some radio buttons - cause these allways work (hopefully) - where you can select a previous uploaded image. Here you can select an image to change your profile picture.
