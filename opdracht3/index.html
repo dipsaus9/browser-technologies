@@ -6,54 +6,56 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <form action="/results.html" method="get">
-      <fieldset>
-        <div id="textEditor">
-          <legend>
-            Kies je text op je pet
-          </legend>
-          <div class="inputFields">
-            <input type="text" required name="text" maxlength="10" id="text">
-            <label for="text">Voer je text in</label>
+    <div class="column">
+      <form action="/results.html" method="get">
+        <fieldset>
+          <div id="textEditor">
+            <legend>
+              Kies je text op je pet
+            </legend>
+            <div class="inputFields">
+              <input type="text" required name="text" maxlength="20" id="text">
+              <label for="text">Voer je text in</label>
+            </div>
           </div>
-        </div>
-      </fieldset>
-      <fieldset>
-        <div class="colorPicker-border">
-          <legend>
-            Kies de kleur van de rand van je pet
-          </legend>
-          <div class="inputFields">
-            <input checked value="red" type="radio" id="red-border" name="color-border"/>
-            <label for="red-border">Rood</label>
-            <input type="radio" value="blue" id="blue-border" name="color-border"/>
-            <label for="blue-border">Blauw</label>
-            <input type="radio" value="green" id="green-border" name="color-border"/>
-            <label for="green-border">Groen</label>
-            <input type="radio" value="white" id="white-border" name="color-border"/>
-            <label for="white-border">Wit</label>
+        </fieldset>
+        <fieldset>
+          <div class="colorPicker-border">
+            <legend>
+              Kies de kleur van de rand van je pet
+            </legend>
+            <div class="inputFields">
+              <input checked value="red" type="radio" id="red-border" name="color-border"/>
+              <label for="red-border">Rood</label>
+              <input type="radio" value="blue" id="blue-border" name="color-border"/>
+              <label for="blue-border">Blauw</label>
+              <input type="radio" value="green" id="green-border" name="color-border"/>
+              <label for="green-border">Groen</label>
+              <input type="radio" value="white" id="white-border" name="color-border"/>
+              <label for="white-border">Wit</label>
+            </div>
           </div>
-        </div>
-      </fieldset>
-      <fieldset>
-        <div class="colorPicker-base">
-          <legend>
-            Kies de kleur van de voorkant van je pet
-          </legend>
-          <div class="inputFields">
-            <input checked value="red" type="radio" id="red-base" name="color-base"/>
-            <label for="red-base">Rood</label>
-            <input type="radio" value="blue" id="blue-base" name="color-base"/>
-            <label for="blue-base">Blauw</label>
-            <input type="radio" value="green" id="green-base" name="color-base"/>
-            <label for="green-base">Groen</label>
-            <input type="radio" value="white" id="white-base" name="color-base"/>
-            <label for="white-base">Wit</label>
+        </fieldset>
+        <fieldset>
+          <div class="colorPicker-base">
+            <legend>
+              Kies de kleur van de voorkant van je pet
+            </legend>
+            <div class="inputFields">
+              <input checked value="red" type="radio" id="red-base" name="color-base"/>
+              <label for="red-base">Rood</label>
+              <input type="radio" value="blue" id="blue-base" name="color-base"/>
+              <label for="blue-base">Blauw</label>
+              <input type="radio" value="green" id="green-base" name="color-base"/>
+              <label for="green-base">Groen</label>
+              <input type="radio" value="white" id="white-base" name="color-base"/>
+              <label for="white-base">Wit</label>
+            </div>
           </div>
-        </div>
-      </fieldset>
-      <input type="submit" value="Creeer mijn T-Shirt"/>
-    </form>
+        </fieldset>
+        <input type="submit" value="Creeer mijn T-Shirt"/>
+      </form>
+    </div>
   </body>
   <script src="js/app.js"></script>
 </html>
