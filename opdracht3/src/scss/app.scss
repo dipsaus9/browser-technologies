@@ -138,7 +138,7 @@ body.print{
   body.enhanched{
     .start, .prev, .next, .indicatie{ display: none; }
     main{ display: flex; flex-wrap: wrap; }
-    .svg{ width: 50%; width: 50vw; display: flex; align-items: center; justify-content: center;
+    .svg{ width: 50%; width: 49vw; display: flex; align-items: center; justify-content: center;
       @media (max-width: 786px){ width: 100vw; margin: 25px 0 100px; }
       svg{ size: 70%;
         path{fill: $metro53; stroke: darken($metro53, 10%); stroke-width:3px;

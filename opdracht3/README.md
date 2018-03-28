@@ -11,28 +11,28 @@ This project uses a lot of features. They are all thought of a PE mindset. This 
 One of the first problems was finding the right font to write text on the cap.
 I'll descibe some problems I faced creating this project.
 
-### HTML
+## HTML
 This may seem obvious but it wasn't actually. Ofcourse the page should work on all browsers and you can easily do this by using HTML only. Cause I'm creating a hat out of some inputs by the user I've decided to use input fields. Here I faced some hard decissions I would like to elaborate.
 
-#### Color picker
+### Color picker
 This project gives the user an abilty to pick their own colors. I was thinking of using the HTML 5 color input for this. Except this isn't supported on all browsers. Older browsers like IE8 will fallback to a regular input field. While this isn't a big problem it really is annoying when you want to create your own hat.
 Thats why I decided to give the user a few options, a radio button. This way all users know what to do here and they can see all possible colors.
 
-#### contenteditable
+### contenteditable
 This is an attribute that can be used in multiple ways. With this attribute activated you can edit the selected element. This way you can change text. This can be usefull for text on the hat.
-I did some research on this attribute but it turns out the support on this attribute is terrible. IE does support this but has some huge bugs on it. So I don´t want to use this feature when it has so many bugs. I decided to go for a regular input field for this option. 
+I did some research on this attribute but it turns out the support on this attribute is terrible. IE does support this but has some huge bugs on it. So I don´t want to use this feature when it has so many bugs. I decided to go for a regular input field for this option.
 
-### Fonts
+## Fonts
 Fonts can be a problem when you don't use them right.
 
-#### How to write a fallback for all browsers when the font won't be loaded
+### How to write a fallback for all browsers when the font won't be loaded
 
 I've found a lot of solutions to create a solution. First of all I wanted to make sure the font was always loading properly. The sad part is, we can't know this unless we write some JS functions around this. Still this wasn't my way of thinking.
 Why fix something in JS when the CSS is still broken? So I've decided to ignore this problem. This may sound bad but I can't write a solution for this problem (yet).
 
 My second problem was:
 
-#### Making sure all browsers give the same font results
+### Making sure all browsers give the same font results
 
 This problem is even bigger then the first one. Cause my case is about creating hats with a preview of the cap I need to make sure all caps look the same. I've thought of two posible solutions.
 
@@ -50,5 +50,5 @@ All browsers (expcept opera mini) support `font-face` in css. The only problem h
 
 [source](https://css-tricks.com/snippets/css/using-font-face/)
 
-### CSS
+## CSS
 This project is based on a good CSS. A good CSS file can really give the user a better experience here. Cause the CSS properties I wanted to use (like display flex, svg animations, :checked states) aren't supported on all browsers I created multiple versions. I started with a basic CSS file that will work on all browsers (at least a lot of browsers).
