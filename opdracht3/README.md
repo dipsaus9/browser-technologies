@@ -24,7 +24,7 @@ I did some research on this attribute but it turns out the support on this attri
 
 After these choices I created this result:
 
-![HTML only](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht3/img/startDifference.png")
+![HTML only](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht3/img/startDifference.png)
 
 
 ## Fonts
@@ -73,7 +73,7 @@ IE8 for example will ignore everything after this code. Chrome will see this cod
 
 This way I created a complete different CSS for modern browsers while old browsers still work.
 
-![CSS difference](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht3/img/cssDifference.png")
+![CSS difference](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht3/img/cssDifference.png)
 
 ## JS
 The final step. To make a awesome page even better. By using JS I wanted to live update the hat. First I needed to check if the JS that I wanted to use was being supported, otherwise it will fallback to the original.
@@ -93,7 +93,7 @@ After checking this I could start coding. First I told my CSS my code was enhanc
 By changing the input fields by a eventListener I changed the color and the text on the hat. Easy as that.
 
 Final product:
-![Final product](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht3/img/end.png")
+![Final product](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht3/img/end.png)
 
 ## Print
 You can also print your results (if supported by browser). I added `@media print` to write a print css. Here I created a display where you can only see the hat you created.
