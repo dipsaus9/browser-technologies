@@ -31,7 +31,7 @@ if(support){
   });
   var radioButtonText = document.querySelectorAll('#colorPicker-border input');
   for(var o = 0; o < radioButtonText.length; o++){
-    radioButtonText[o].addEventListener('click', function(e){
+    radioButtonText[o].addEventListener('change', function(e){
       for(var p = 0; p < radioButtonText.length; p++){
         if(radioButtonText[p].checked){
           var textObjects = document.querySelectorAll('text');
@@ -45,7 +45,7 @@ if(support){
   }
   var radioButtonHat = document.querySelectorAll('#colorPicker-base input');
   for(var o = 0; o < radioButtonHat.length; o++){
-    radioButtonHat[o].addEventListener('click', function(e){
+    radioButtonHat[o].addEventListener('change', function(e){
       for(var p = 0; p < radioButtonHat.length; p++){
         if(radioButtonHat[p].checked){
           var hatObject = document.querySelectorAll('path');
