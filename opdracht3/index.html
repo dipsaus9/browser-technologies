@@ -8,55 +8,83 @@
   <body>
     <main>
       <form action="/results.html" method="get">
-        <div class="info">
+        <div class="info" id="home" >
           <h1>Creer je eigen pet</h1>
         </div>
+        <a href="#textEditor" class="start">Creer je eigen pet!</a>
         <fieldset>
           <div id="textEditor">
-            <legend>
-              Kies je text op je pet
-            </legend>
-            <div class="inputFields">
-              <label for="text">Voer je text in</label>
-              <input placeholder="Your awesome text" type="text" name="text" maxlength="20" id="text">
+            <div class="container">
+              <legend>
+                Kies je text op je pet
+              </legend>
+              <div class="inputFields">
+                <label for="text">Voer je text in</label>
+                <input placeholder="Your awesome text" type="text" name="text" maxlength="30" id="text">
+              </div>
             </div>
+            <div class="indicatie">
+              <p>
+                1/3
+              </p>
+            </div>
+            <a href="#home" class="prev">Vorige</a>
+            <a href="#colorPicker-border" class="next">Volgende</a>
           </div>
         </fieldset>
         <fieldset>
-          <div class="colorPicker-border">
-            <legend>
-              Kies de kleur van de rand van je pet
-            </legend>
-            <div class="inputFields">
-              <input checked value="red" type="radio" id="red-border" name="color-border"/>
-              <label class="red" for="red-border">Rood</label>
-              <input type="radio" value="blue" id="blue-border" name="color-border"/>
-              <label class="blue" for="blue-border">Blauw</label>
-              <input type="radio" value="green" id="green-border" name="color-border"/>
-              <label class="green" for="green-border">Groen</label>
-              <input type="radio" value="white" id="white-border" name="color-border"/>
-              <label class="white" for="white-border">Wit</label>
+          <div id="colorPicker-border">
+            <div class="container">
+              <legend>
+                Kies de kleur van de text van je pet
+              </legend>
+              <div class="inputFields">
+                <input checked value="white" type="radio" id="white-border" name="color-border"/>
+                <label class="white" for="white-border">Wit</label>
+                <input type="radio" value="blue" id="blue-border" name="color-border"/>
+                <label class="blue" for="blue-border">Blauw</label>
+                <input type="radio" value="green" id="green-border" name="color-border"/>
+                <label class="green" for="green-border">Groen</label>
+                <input type="radio" value="purple" id="purple-border" name="color-border"/>
+                <label class="purple" for="purple-border">Paars</label>
+              </div>
             </div>
+            <div class="indicatie">
+              <p>
+                2/3
+              </p>
+            </div>
+            <a href="#textEditor" class="prev">Vorige</a>
+            <a href="#colorPicker-base" class="next">Volgende</a>
           </div>
         </fieldset>
         <fieldset>
-          <div class="colorPicker-base">
-            <legend>
-              Kies de kleur van de voorkant van je pet
-            </legend>
-            <div class="inputFields">
-              <input checked value="red" type="radio" id="red-base" name="color-base"/>
-              <label class="red" for="red-base">Rood</label>
-              <input type="radio" value="blue" id="blue-base" name="color-base"/>
-              <label class="blue" for="blue-base">Blauw</label>
-              <input type="radio" value="green" id="green-base" name="color-base"/>
-              <label class="green" for="green-base">Groen</label>
-              <input type="radio" value="white" id="white-base" name="color-base"/>
-              <label class="white" for="white-base">Wit</label>
+          <div id="colorPicker-base">
+            <div class="container">
+              <legend>
+                Kies de kleur van de voorkant van je pet
+              </legend>
+              <div class="inputFields">
+                <input checked value="red" type="radio" id="red-base" name="color-base"/>
+                <label class="red" for="red-base">Rood</label>
+                <input type="radio" value="blue" id="blue-base" name="color-base"/>
+                <label class="blue" for="blue-base">Blauw</label>
+                <input type="radio" value="green" id="green-base" name="color-base"/>
+                <label class="green" for="green-base">Groen</label>
+                <input type="radio" value="purple" id="purple-base" name="color-base"/>
+                <label class="purple" for="purple-base">Wit</label>
+              </div>
             </div>
+            <div class="indicatie">
+              <p>
+                3/3
+              </p>
+            </div>
+            <a href="#colorPicker-border" class="prev">Vorige</a>
+            <button class="printButton">Print</button>
+            <input class="submit" type="submit" value="Creeer mijn T-Shirt"/>
           </div>
         </fieldset>
-        <input class="submit" type="submit" value="Creeer mijn T-Shirt"/>
       </form>
     </main>
   </body>
