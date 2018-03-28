@@ -15,7 +15,7 @@ function supportTest(){
 
 
 if(support){
-  document.body.classList.add('enhanched');
+  document.body.classList.add('enhanced');
   var allUrl = document.querySelectorAll('a');
   for(var i = 0; i < allUrl.length; i++){
     allUrl[i].classList.add('disabled');
