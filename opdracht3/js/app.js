@@ -95,7 +95,8 @@ if(support){
       var title = document.createElement('title');
       var titleText = document.createTextNode("Voorbeeld pet");
       title.appendChild(titleText);
-      var svg = `<svg id="Layer_1" viewBox="0 0 350.36 217.91">
+      var svg = `<svg id="Layer_1" viewBox="0 0 350.36 217.91" aria-label="voorbeeld pet">
+      <desc>Dit is een voorbeeld pet met de kleuren: rood en wit</desc>
         <title>Voorbeeld pet</title>
         <path id="path3359" class="cls-1" d="M330.64,292.84c-23.4-17.33-33-37.76-58.77-52.82,38.87-7.44,46.12-5.46,70.52,8S378.25,317.39,330.64,292.84Z" transform="translate(-14.71 -82.6)"/>
         <path id="path3355" class="cls-2" d="M289.68,210c-74.13-35.59-161.21-13-233.61,26.48-14.13,7.72-27.71,16.08-40.52,24.77,1.93-.46,2.53-26.93,3.58-32.84-2.2-65.33,20.3-112.81,83.17-136,32-3.4,69.18-13.3,100.94-5.19,22.4,10.49,27.45,16.71,52.34,41.75,4.34,9.11,33.14,80.9,34.1,81Z" transform="translate(-14.71 -82.6)"/>

@@ -6,7 +6,7 @@ The project is being served by the index.html file and you can find a preview on
 
 To work on this project you can run `npm install && grunt` or just work from the index.html file.
 
-## Specs
+## Browser Support
 This project uses a lot of features. They are all thought of a PE mindset. This website can be used for every single browser and every user (goal).
 One of the first problems was finding the right font to write text on the cap.
 I'll descibe some problems I faced creating this project.
@@ -98,6 +98,11 @@ Final product:
 ## Print
 You can also print your results (if supported by browser). I added `@media print` to write a print css. Here I created a display where you can only see the hat you created.
 
+## Design choices
+This project uses some basic colors. I've chosen these colors cause of the usabilty. The color label also describes what color it is for people using a screen reader or color blinds. I've made all buttons a bit bigger so everyone should be able to use these buttons. The HTML is written with a semantic layout so a screen reader or Google can use this website aswell. This website is still hard for a blink person cause this website is based on a visual interface, but it's still possible.
+Also the SVG uses aria labels and a description for blind people (so does the img tag has a alt attribute).
+
+The colors on the hat are sometimes out of contrast, this is because some combination are just terrible (purple on orange). This problem I didn't solve. I don't think someone wants to create a hat with these colors, and if so, you still can see the result. 
 
 ## To Do
 This project just started. There are a lot of small bugs I want to solve.
