@@ -35,3 +35,5 @@ Beoordelingscriteria
   - een beschrijving van de problemen die je hebt gevonden
   - beschrijf hoe je de problemen hebt opgelost
   - of hoe je dit zou oplossen (met todo’s) als je genoeg tijd en budget zou hebben
+
+## Images
