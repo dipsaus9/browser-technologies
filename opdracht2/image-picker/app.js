@@ -23,7 +23,7 @@ function checkSupport(){
 function start(){
   if(support){
     var uploadFile = document.querySelector('input[type="file"]');
-    uploadFile.classList.add('enhanched');
+    uploadFile.classList.add('enhanced');
     uploadFile.addEventListener('change', function(e){
       if(e.target.value !== undefined){
         var fileName = e.target.value.split( '\\' ).pop();
@@ -46,7 +46,6 @@ function start(){
 }
 
 function createImageUpload(src){
-  console.log(src);
   var element = document.createElement('label');
   var input = document.createElement('input');
   element.setAttribute('for', number);
