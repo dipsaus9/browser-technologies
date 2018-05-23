@@ -37,3 +37,5 @@ Beoordelingscriteria
   - of hoe je dit zou oplossen (met todo’s) als je genoeg tijd en budget zou hebben
 
 ## Images
+![First test](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht1/test1.JPG)
+![Second test](https://github.com/dipsaus9/browser-technologies/blob/master/opdracht1/test2.JPG)
